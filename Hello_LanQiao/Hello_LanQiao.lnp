@@ -1,0 +1,6 @@
+--cpu Cortex-M3
+"..\startup_stm32f10x_md.o"
+--strict --scatter "..\Hello_LanQiao.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Hello_LanQiao.map" -o ..\Hello_LanQiao.axf
